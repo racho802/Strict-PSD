@@ -66,7 +66,7 @@ header {
 
 .strict h1 {
 
-    font-size: 90px;
+    font-size: 92px;
 
     font-family: lato;
 
@@ -111,6 +111,11 @@ header {
     padding: 15px 30px;
 
     border-radius: 3px;
+    transition: .6s all ease-in-out;
+    cursor: pointer;
+}
+.strict button:hover{
+    background-color: #15a4fa;
 }
 
 .icon {
